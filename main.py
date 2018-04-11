@@ -88,7 +88,7 @@ def init():
 
    # Configure the radio
    #d.makePktFLEN(len(rf_data)) # Set the RFData packet length
-   d.setMdmDRate(5500)         # Set the Baud Rate
+   d.setMdmDRate(4800)         # Set the Baud Rate
    d.setMdmSyncMode(0)         # Disable preamble
    d.setFreq(433920000)        # Set the frequency
 
